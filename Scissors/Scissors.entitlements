@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>authsrv:psso.local?mode=developer</string>
+		<string>authsrv:psso.macwow.org</string>
 	</array>
 	<key>com.apple.developer.associated-domains.mdm-managed</key>
 	<true/>
