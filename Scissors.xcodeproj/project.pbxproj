@@ -131,7 +131,7 @@
 		765E77B32BFCFA930031076E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		767C483A2BBFA53D00AFA32F /* AuthenticationViewController+Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationViewController+Shared.swift"; sourceTree = "<group>"; };
 		7688F81D2BB7BCA400C0C369 /* ssoe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ssoe.entitlements; sourceTree = SOURCE_ROOT; };
-		768FA4B82BB7290F001DD2FB /* Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768FA4B82BB7290F001DD2FB /* Scissorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scissorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768FA4BB2BB7290F001DD2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768FA4BD2BB7290F001DD2FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		768FA4BF2BB72910001DD2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 		768FA4B92BB7290F001DD2FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				768FA4B82BB7290F001DD2FB /* Scissors.app */,
+				768FA4B82BB7290F001DD2FB /* Scissorz.app */,
 				768FA4CE2BB7294D001DD2FB /* ssoe.appex */,
 				7632D5392BBF233900CA9DFD /* Scissors-ios.app */,
 				7632D5512BBF236E00CA9DFD /* ssoe-ios.appex */,
@@ -310,9 +310,9 @@
 			productReference = 7632D5512BBF236E00CA9DFD /* ssoe-ios.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		768FA4B72BB7290F001DD2FB /* Scissors */ = {
+		768FA4B72BB7290F001DD2FB /* Scissorz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 768FA4C72BB72910001DD2FB /* Build configuration list for PBXNativeTarget "Scissors" */;
+			buildConfigurationList = 768FA4C72BB72910001DD2FB /* Build configuration list for PBXNativeTarget "Scissorz" */;
 			buildPhases = (
 				768FA4B42BB7290F001DD2FB /* Sources */,
 				768FA4B52BB7290F001DD2FB /* Frameworks */,
@@ -324,9 +324,9 @@
 			dependencies = (
 				768FA4DB2BB7294D001DD2FB /* PBXTargetDependency */,
 			);
-			name = Scissors;
+			name = Scissorz;
 			productName = Scissors;
-			productReference = 768FA4B82BB7290F001DD2FB /* Scissors.app */;
+			productReference = 768FA4B82BB7290F001DD2FB /* Scissorz.app */;
 			productType = "com.apple.product-type.application";
 		};
 		768FA4CD2BB7294D001DD2FB /* ssoe */ = {
@@ -386,7 +386,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				768FA4B72BB7290F001DD2FB /* Scissors */,
+				768FA4B72BB7290F001DD2FB /* Scissorz */,
 				768FA4CD2BB7294D001DD2FB /* ssoe */,
 				7632D5382BBF233900CA9DFD /* Scissors-ios */,
 				7632D5502BBF236E00CA9DFD /* ssoe-ios */,
@@ -497,7 +497,7 @@
 		};
 		767C48452BBFB2EA00AFA32F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 768FA4B72BB7290F001DD2FB /* Scissors */;
+			target = 768FA4B72BB7290F001DD2FB /* Scissorz */;
 			targetProxy = 767C48442BBFB2EA00AFA32F /* PBXContainerItemProxy */;
 		};
 		768FA4DB2BB7294D001DD2FB /* PBXTargetDependency */ = {
@@ -823,6 +823,7 @@
 				DEVELOPMENT_TEAM = XXGW89V7J7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -853,6 +854,7 @@
 				DEVELOPMENT_TEAM = XXGW89V7J7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -964,7 +966,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		768FA4C72BB72910001DD2FB /* Build configuration list for PBXNativeTarget "Scissors" */ = {
+		768FA4C72BB72910001DD2FB /* Build configuration list for PBXNativeTarget "Scissorz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				768FA4C82BB72910001DD2FB /* Debug */,
